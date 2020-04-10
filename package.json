@@ -1,0 +1,21 @@
+{
+  "name": "tailf",
+  "version": "1.0.0",
+  "description": "Custom Tail F command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Swagato",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-backwards-stream": "^1.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
